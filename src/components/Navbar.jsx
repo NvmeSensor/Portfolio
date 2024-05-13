@@ -36,9 +36,8 @@ const Navbar = () => {
 
 
     return (
-        <nav className="flex justify-center items-center w-full mt-2">
-        <div className="lg:w-[80vw] w-[95vw] px-5 py-3 sticky top-0 bg-transparent navbar rounded-lg">
-            <div className="navbar-background"></div>
+        <nav className="flex justify-center items-center w-full mt-2 absolute top-3">
+        <div className="lg:w-[80vw] w-[95vw] px-5 py-3 bg-transparent navbar rounded-3xl">
             <div className="flex items-center justify-between">
                 {/* Logo */}
                 <div className="flex items-center text-white text-3xl font-bold px-3">
@@ -47,7 +46,7 @@ const Navbar = () => {
                 {/* Desktop Menu */}
                 <div className="hidden lg:flex justify-center items-center gap-5 text-white">
                     {menuItems.map((menuItems, index) => (
-                        <Link href={menuItems.url} className="hover:bg-cyan-600 cursor-pointer px-3 py-2 font-medium rounded-md" key={index}>
+                        <Link href={menuItems.url} className="hover:bg-cyan-500 cursor-pointer px-3 py-2 font-medium rounded-md" key={index}>
                             {menuItems.name}
                         </Link>
                     ))}
@@ -118,7 +117,7 @@ const Navbar = () => {
                         <Link
                             href={menuItems.url}
                             key={index}
-                            className="text-white hover:bg-cyan-600 w-full cursor-pointer px-3 py-2 font-medium rounded-md self-start"
+                            className="text-white hover:bg-cyan-500 w-full cursor-pointer px-3 py-2 font-medium rounded-md self-start"
                         >
                             {menuItems.name}
                         </Link>
