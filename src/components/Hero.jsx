@@ -8,7 +8,7 @@ const Hero = () => {
     const xyz = "I'm a passionate full-stack developer with expertise in building modern, scalable, and user-friendly web applications."
 
     return (
-        <section className="lg:w-[80vw] md:h-[95vh] w-full flex flex-col justify-center items-center md:mt-0 mt-[120px]">
+        <section className="lg:w-[80vw] md:h-[95vh] w-full flex flex-col justify-center items-center md:mt-0 mt-[132px]">
             <div className="grid grid-col-1 md:grid-cols-2 justify-center items-center gap-6">
             <div className="flex flex-col justify-start items-center gap-3 px-7 max-w-[450px] lg:max-w-[550px] col-span-1">
                 <h1 className="text-xl lg:text-2xl font-medium text-cyan-500 self-start">{hi}</h1>
