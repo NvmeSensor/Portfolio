@@ -41,7 +41,7 @@ const Navbar = () => {
             <div className="flex items-center justify-between">
                 {/* Logo */}
                 <div className="flex items-center text-white text-3xl font-bold px-3">
-                    <h1 className={kalam.className}>{logoName}</h1>
+                    <h1>{logoName}</h1>
                 </div>
                 {/* Desktop Menu */}
                 <div className="hidden lg:flex justify-center items-center gap-5 text-white">
