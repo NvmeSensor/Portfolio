@@ -38,11 +38,11 @@ const Contact = () => {
                     <h1 className='text-3xl font-medium self-start text-slate-300 flex gap-2 items-center'>Connect With Me <IoLogoWebComponent className='text-3xl' /></h1>
                 </div>
                 <div className='flex flex-wrap justify-center items-center gap-5 p-4 rounded-lg card'>
-                {conxtants.map((conxtant , index) => (
-                    <Link href={conxtant.url} key={index} target='blank' className='text-4xl text-slate-200 hover:text-cyan-600 transition ease-in-out'>
-                        {conxtant.icon}
-                    </Link>
-                ))}
+                    {conxtants.map((conxtant, index) => (
+                        <Link href={conxtant.url} key={index} target='blank' className='text-4xl text-slate-200 hover:text-cyan-600 transition ease-in-out'>
+                            {conxtant.icon}
+                        </Link>
+                    ))}
                 </div>
             </div>
         </section>
