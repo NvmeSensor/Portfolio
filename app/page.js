@@ -1,18 +1,15 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
-import Hero from '../components/Hero'
-import Skills from '../components/Skills'
-import About from '../components/About'
-import Projects from '../components/Projects'
-import Services from '../components/Services'
-import Contact from '../components/Contact'
-import Message from '../components/Message'
-import Footer from '../components/Footer'
+import Hero from '../components/home/Hero'
+import Skills from '../components/home/Skills'
+import About from '../components/home/About'
+import Projects from '../components/home/Projects'
+import Services from '../components/home/Services'
+import Contact from '../components/home/Contact'
+import Message from '../components/home/Message'
 
 const Home = () => {
   return (
     <section>
-      {/* <Navbar /> */}
       <Hero />
       <About />
       <Skills />
@@ -20,7 +17,6 @@ const Home = () => {
       <Services />
       <Contact />
       <Message />
-      <Footer />
     </section>
   )
 }

@@ -2,6 +2,7 @@ import { Inter } from "next/font/google";
 import Head from "next/head";
 import "./globals.css";
 import "./style.css"
+import Footer from '../components/Footer'
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -25,7 +26,10 @@ export default function RootLayout({ children }) {
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
       </Head>
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }

@@ -4,7 +4,7 @@ import { GoCodeReview } from "react-icons/go";
 const About = () => {
 
     const hello1 = "My name is Priyanshu Chahar and I'm a computer science student with a passion for programming. I'm deeply interested in web development and enjoy exploring new technologies to build innovative solutions."
-    const hello2 = "As a MERN stack developer, I'm proficient in HTML, CSS, JavaScript, TypeScript, Tailwind CSS, Bootstrap, React.js, Next.js, Node.js and Express.js. I'm always eager to expand my skill set and learn new technologies to stay updated with industry trends."
+    const hello2 = "As a MERN stack developer, I specialize in HTML, CSS, JavaScript, TypeScript, Tailwind CSS, Bootstrap, React JS, Next JS, NodeJS, ExpressJS, MySQL, MongoDB, Python, along with foundational knowledge in C#, Java, C++, and Rust. I'm always eager to expand my skill set and learn new technologies to stay updated with industry trends."
     const hello3 = "Outside of programming, I enjoy spending my free time on hobbies like coding personal projects. I find joy in solving complex problems and turning ideas into reality through code."
 
     return (
