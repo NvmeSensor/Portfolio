@@ -9,7 +9,7 @@ export const metadata = {
   title: "Priyanshu Chahar | Portfolio",
   description: "Priyanshu Chahar is a skilled MERN stack developer with expertise in MERN stack technologies. Get in touch for web development projects.",
   keywords: ["Priyanshu Chahar", "Full Stack Developer", "MERN Stack", "Web Development"],
-  image: "https://example.com/link-preview-image.jpg",
+  image: "preview.jpg",
 };
 
 export default function RootLayout({ children }) {
