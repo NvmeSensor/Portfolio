@@ -8,10 +8,17 @@ body {
     background: #35353535;
 }
 
-.skills {
+.input {
     background: #121212;
 }
 
 .card {
-    background: #1e1e1e;
+    background: #202020;
+}
+
+.proj {
+    background: -webkit-radial-gradient(#eee, #414141);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 7px rgba(185, 185, 185, 0.7);
 }
