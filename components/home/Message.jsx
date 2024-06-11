@@ -41,12 +41,12 @@ const Message = () => {
                     <h1 className='text-3xl font-medium self-start text-slate-300 flex gap-2 items-center'>Drop a Message <LuMessageSquare className='text-3xl' /></h1>
                 </div>
                 <form onSubmit={onSubmit} className='p-5 rounded-lg flex flex-col justify-center items-center gap-2 w-full card'>
-                    <label htmlFor="" className='text-slate-100 font-medium self-start text-xl'>Name</label>
-                    <input type="text" name="name" placeholder='Your Name' className='text-slate-200 font-medium px-3 py-2 rounded-lg w-full outline-none input' required />
-                    <label htmlFor="" className='text-slate-100 font-medium self-start text-xl'>Email</label>
-                    <input type="email" name="email" placeholder='Your Email' className='text-slate-200 font-medium px-3 py-2 rounded-lg w-full outline-none input' required />
-                    <label htmlFor="" className='text-slate-100 font-medium self-start text-xl'>Message</label>
-                    <textarea name="message" placeholder='Drop Your Message' className='text-slate-200 font-medium px-3 py-2 rounded-lg w-full outline-none input' required></textarea>
+                    <label htmlFor="name" className='text-slate-100 font-medium self-start text-xl'>Name</label>
+                    <input type="text" id='name' name="name" placeholder='Your Name' className='text-slate-200 font-medium px-3 py-2 rounded-lg w-full outline-none input' required />
+                    <label htmlFor="email" className='text-slate-100 font-medium self-start text-xl'>Email</label>
+                    <input type="email" id='email' name="email" placeholder='Your Email' className='text-slate-200 font-medium px-3 py-2 rounded-lg w-full outline-none input' required />
+                    <label htmlFor="message" className='text-slate-100 font-medium self-start text-xl'>Message</label>
+                    <textarea id='message' name="message" placeholder='Drop Your Message' className='text-slate-200 font-medium px-3 py-2 rounded-lg w-full outline-none input' required></textarea>
                     <button type="submit" className='btn text-slate-800 bg-slate-200 hover:bg-slate-300 transition ease-in-out text-xl font-medium px-3 py-2 rounded-lg self-start mt-2'>Submit</button>
                 </form>
                 {error && <span className="text-slate-300 font-medium">{error}</span>}
