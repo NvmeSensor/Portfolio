@@ -1,5 +1,8 @@
 body {
-    background: #121212;
+    /* background: #121212; */
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(/dark.png);
 }
 
 .navbar {
@@ -13,7 +16,11 @@ body {
 }
 
 .card {
-    background: #202020;
+    /* background: #202020; */
+    background: #55555580;
+    /* box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px); */
 }
 
 .proj {
