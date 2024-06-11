@@ -1,8 +1,13 @@
 body {
     /* background: #121212; */
     width: 100%;
-    min-height: 100vh;
-    background-image: url(/dark.png);
+    /* background-image: url(/dark.png); */
+   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='250' preserveAspectRatio='none' viewBox='0 0 1440 250'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1039%26quot%3b)' fill='none'%3e%3crect width='1440' height='250' x='0' y='0' fill='rgba(22%2c 22%2c 22%2c 1)'%3e%3c/rect%3e%3cpath d='M36 250L286 0L626.5 0L376.5 250z' fill='url(%26quot%3b%23SvgjsLinearGradient1040%26quot%3b)'%3e%3c/path%3e%3cpath d='M279.6 250L529.6 0L645.1 0L395.1 250z' fill='url(%26quot%3b%23SvgjsLinearGradient1040%26quot%3b)'%3e%3c/path%3e%3cpath d='M489.20000000000005 250L739.2 0L917.7 0L667.7 250z' fill='url(%26quot%3b%23SvgjsLinearGradient1040%26quot%3b)'%3e%3c/path%3e%3cpath d='M749.8000000000001 250L999.8000000000001 0L1146.8000000000002 0L896.8000000000001 250z' fill='url(%26quot%3b%23SvgjsLinearGradient1040%26quot%3b)'%3e%3c/path%3e%3cpath d='M1428 250L1178 0L1118 0L1368 250z' fill='url(%26quot%3b%23SvgjsLinearGradient1041%26quot%3b)'%3e%3c/path%3e%3cpath d='M1177.4 250L927.4000000000001 0L811.9000000000001 0L1061.9 250z' fill='url(%26quot%3b%23SvgjsLinearGradient1041%26quot%3b)'%3e%3c/path%3e%3cpath d='M962.8 250L712.8 0L666.3 0L916.3 250z' fill='url(%26quot%3b%23SvgjsLinearGradient1041%26quot%3b)'%3e%3c/path%3e%3cpath d='M711.1999999999999 250L461.19999999999993 0L171.69999999999993 0L421.69999999999993 250z' fill='url(%26quot%3b%23SvgjsLinearGradient1041%26quot%3b)'%3e%3c/path%3e%3cpath d='M1223.5042010436605 250L1440 33.50420104366049L1440 250z' fill='url(%26quot%3b%23SvgjsLinearGradient1040%26quot%3b)'%3e%3c/path%3e%3cpath d='M0 250L216.4957989563395 250L 0 33.50420104366049z' fill='url(%26quot%3b%23SvgjsLinearGradient1041%26quot%3b)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1039'%3e%3crect width='1440' height='250' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='0%25' y1='100%25' x2='100%25' y2='0%25' id='SvgjsLinearGradient1040'%3e%3cstop stop-color='rgba(97%2c 97%2c 97%2c 0.2)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(97%2c 97%2c 97%2c 0.2)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='100%25' y1='100%25' x2='0%25' y2='0%25' id='SvgjsLinearGradient1041'%3e%3cstop stop-color='rgba(97%2c 97%2c 97%2c 0.2)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(97%2c 97%2c 97%2c 0.2)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
 }
 
 .navbar {
