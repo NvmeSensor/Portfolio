@@ -15,6 +15,7 @@ import { FaRust } from "react-icons/fa";
 import { TbBrandCpp } from "react-icons/tb";
 import { SiCsharp } from "react-icons/si";
 import React from 'react'
+import { VscVscode } from "react-icons/vsc";
 
 const Skills = () => {
 
@@ -61,29 +62,14 @@ const Skills = () => {
             icon: <SiExpress />,
         },
         {
-            name: "MySql",
-            icon: <SiMysql />,
-        },
-        {
             name: "MongoDB",
             icon: <SiMongodb />,
         },
         {
-            name: "Git",
-            icon: <FaGitAlt />,
+            name: "MySql",
+            icon: <SiMysql />,
         },
-        {
-            name: "Github",
-            icon: <FaGithub />,
-        },
-        {
-            name: "Windows",
-            icon: <FaWindows />,
-        },
-        {
-            name: "Linux",
-            icon: <FaLinux />,
-        },
+
         // {
         //   name: "Ubuntu",
         //   icon: <FaUbuntu />,
@@ -110,16 +96,66 @@ const Skills = () => {
         },
     ];
 
+    const tools = [
+        {
+            name: "Git",
+            icon: <FaGitAlt />,
+        },
+        {
+            name: "Github",
+            icon: <FaGithub />,
+        },
+        {
+            name: "VsCode",
+            icon: <VscVscode />,
+        }
+    ]
+
+    const os = [
+        {
+            name: "Ubuntu",
+            icon: <FaUbuntu />,
+        },
+        {
+            name: "Windows",
+            icon: <FaWindows />,
+        },
+        {
+            name: "Linux",
+            icon: <FaLinux />,
+        }
+    ]
+
     return (
         <section className='flex flex-col justify-center items-center w-full px-5 mb-14'>
             <div className='flex flex-col justify-center items-center gap-3 lg:w-[75vw] w-full'>
                 <div className='flex justify-center items-center gap-4 self-start'>
-                    <h1 className='text-3xl font-medium self-start text-slate-300 flex gap-2 items-center'>What I Know <IoCodeSlashSharp className='text-3xl' /></h1>
+                    <h1 className='text-3xl font-medium self-start text-slate-300 flex gap-2 items-center'>My Skills</h1>
                 </div>
                 <div className="flex flex-wrap justify-start items-center  gap-4 w-full">
                     {skills.map((skill, index) => (
                         <div className="flex justify-start items-center" key={index}>
-                            <h1 className="font-medium text-slate-200 flex gap-2 items-center rounded-lg px-3 py-2 hover:text-cyan-600 transition ease-in-out cursor-pointer card">{skill.name}{skill.icon}</h1>
+                            <h1 className="font-semibold text-slate-200 flex gap-2 items-center rounded-lg px-3 py-2 hover:text-cyan-600 transition ease-in-out cursor-pointer card">{skill.name}{skill.icon}</h1>
+                        </div>
+                    ))}
+                </div>
+                <div className='flex justify-center items-center gap-4 self-start'>
+                    <h1 className='text-3xl font-medium self-start text-slate-300 flex gap-2 items-center'>My Tools</h1>
+                </div>
+                <div className="flex flex-wrap justify-start items-center  gap-4 w-full">
+                    {tools.map((tool, index) => (
+                        <div className="flex justify-start items-center" key={index}>
+                            <h1 className="font-medium text-slate-200 flex gap-2 items-center rounded-lg px-3 py-2 hover:text-cyan-600 transition ease-in-out cursor-pointer card">{tool.name}{tool.icon}</h1>
+                        </div>
+                    ))}
+                </div>
+                <div className='flex justify-center items-center gap-4 self-start'>
+                    <h1 className='text-3xl font-semibold self-start text-slate-300 flex gap-2 items-center'>My Operating System</h1>
+                </div>
+                <div className="flex flex-wrap justify-start items-center  gap-4 w-full">
+                    {os.map((o, index) => (
+                        <div className="flex justify-start items-center" key={index}>
+                            <h1 className="font-semibold text-slate-200 flex gap-2 items-center rounded-lg px-3 py-2 hover:text-cyan-600 transition ease-in-out cursor-pointer card">{o.name}{o.icon}</h1>
                         </div>
                     ))}
                 </div>
@@ -128,4 +164,4 @@ const Skills = () => {
     )
 }
 
-export default Skills
+export default Skills;

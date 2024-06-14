@@ -11,17 +11,17 @@ const Message = () => {
         setResult('Sending....');
         setError('');
         const formData = new FormData(event.target);
-    
+
         formData.append('access_key', 'cd983054-7435-40e2-9c17-344402d4232c');
-    
+
         try {
             const response = await fetch('https://api.web3forms.com/submit', {
                 method: 'POST',
                 body: formData,
             });
-    
+
             const data = await response.json();
-    
+
             if (data.success) {
                 setResult('Form Submitted Successfully');
                 event.target.reset();

@@ -1,9 +1,9 @@
-import { Inter } from "next/font/google";
+import { Syne } from "next/font/google";
 import "./globals.css";
 import "./style.css"
 import Footer from '../components/Footer'
 
-const inter = Inter({ subsets: ["latin"] });
+const syne = Syne({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Priyanshu Chahar | Portfolio",
@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
         <meta name="description" content={metadata.description} />
         <meta name="keywords" content={metadata.keywords} />
       </head>
-      <body className={inter.className}>
+      <body className={syne.className}>
         {children}
         <Footer />
       </body>

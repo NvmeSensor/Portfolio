@@ -5,16 +5,20 @@ const Services = () => {
 
   const servixes = [
     {
-      name: "Custom Web Application Development",
-      desc: "Tailored solutions for web apps, utilizing MERN stack, meeting your unique needs.",
+      "name": "Custom Web Application Development",
+      "desc": "Tailored solutions for web apps, utilizing MERN stack, meeting your unique needs."
     },
     {
-      name: "Legacy System Modernization",
-      desc: "Revitalize old systems with modern tech, updating and migrating for enhanced performance.",
+      "name": "Legacy System Modernization",
+      "desc": "Revitalize old systems with modern tech, updating and migrating for enhanced performance."
     },
     {
-      name: "Full Stack Development and Maintenance",
-      desc: "End-to-end development and support, ensuring seamless operation of your application.",
+      "name": "Full Stack Development and Maintenance",
+      "desc": "End-to-end development and support, ensuring seamless operation of your application."
+    },
+    {
+      "name": "Frontend Development Services",
+      "desc": "Expert frontend development using HTML, CSS, JavaScript, React, and Next.js for dynamic, responsive, and visually appealing interfaces."
     }
   ];
 
@@ -38,4 +42,4 @@ const Services = () => {
   )
 }
 
-export default Services
+export default Services;

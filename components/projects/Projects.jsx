@@ -2,29 +2,9 @@ import React from 'react'
 import { FaLaptopCode } from "react-icons/fa6";
 import { FaHome } from "react-icons/fa";
 import Link from 'next/link';
+import projexts from '@/data/data';
 
 const Projects = () => {
-
-    const projexts = [
-        {
-            name: "Portfolio",
-            tech: "Next.JS, Tailwind Css",
-            desc: "Personal showcase for projects and achievements",
-            link: "",
-        },
-        {
-            name: "AiNrzy",
-            tech: "Next.JS, Tailwind Css",
-            desc: "Open-source AI development community platform",
-            link: "",
-        },
-        {
-            name: "SyntaxMeet",
-            tech: "Next.JS, Tailwind Css",
-            desc: "Video calling web application for seamless meetings",
-            link: "",
-        },
-    ]
 
     return (
         <section className='flex flex-col justify-center items-center w-full px-5 py-14'>

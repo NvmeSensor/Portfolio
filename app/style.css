@@ -22,3 +22,18 @@ body {
     -webkit-text-fill-color: transparent;
     text-shadow: 0 0 5px #ffffffa1;
 }
+
+::-webkit-scrollbar {
+    width: 12px;
+    background-color: #1e1e1e;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #55555555;
+    border-radius: 6px;
+    border: 2px solid transparent;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #313131;
+}
