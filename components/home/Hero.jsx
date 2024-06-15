@@ -24,8 +24,4 @@ const Hero = () => {
     )
 }
 
-<<<<<<< HEAD
 export default Hero;
-=======
-export default Hero
->>>>>>> 4c4a6d0ac0ac32b7d7d2f5dc396c3b23fed73b98
