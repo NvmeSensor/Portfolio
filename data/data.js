@@ -6,10 +6,10 @@ const projexts = [
         link: "https://priyanshuchahar.vercel.app/",
     },
     {
-        name: "AiNrzy",
+        name: "NodeElites",
         tech: "Next.JS, Tailwind Css",
-        desc: "Open-source AI development community platform",
-        link: "https://ainrzy.vercel.app/",
+        desc: "Open-source developers community platform",
+        link: "https://nodeelites.github.io/",
     },
     {
         name: "SyntaxMeet",
