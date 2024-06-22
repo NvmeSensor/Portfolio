@@ -14,7 +14,7 @@ const Hero = () => {
                         <img src="/profileimage.png" alt="" className='h-full w-full rounded-full hover:translate-y-1 transition ease-in-out shadow shadow-slate-600' />
                     </div> */}
                     <div className='flex flex-col justify-start items-center gap-2'>
-                        <h1 className='text-3xl font-semibold text-slate-100 self-start'>{name}</h1>
+                        <h1 className='text-4xl font-semibold text-slate-100 self-start'>{name}</h1>
                         <h2 className='lg:text-2xl text-xl font-medium text-slate-200 self-start'>{developer}</h2>
                         <h3 className='lg:text-xl font-medium text-slate-200 self-start'>{tagline}</h3>
                     </div>
