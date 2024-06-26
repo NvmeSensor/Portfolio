@@ -1,6 +1,5 @@
 "use client"
 import React, { useState } from 'react';
-import { LuMessageSquare } from "react-icons/lu";
 
 const Message = () => {
     const [result, setResult] = useState('');
@@ -38,19 +37,19 @@ const Message = () => {
         <section className='flex flex-col justify-center items-center w-full px-5 mb-14'>
             <div className='flex flex-col justify-center items-center gap-3 lg:w-[75vw] w-full'>
                 <div className='flex justify-center items-center gap-4 self-start'>
-                    <h1 className='text-3xl font-medium self-start text-slate-300 flex gap-2 items-center'>Drop a Message</h1>
+                    <h1 className='text-3xl font-semibold self-start dark:text-slate-300 text-gray-900 flex gap-2 items-center'>Drop a Message</h1>
                 </div>
                 <form onSubmit={onSubmit} className='p-5 rounded-lg flex flex-col justify-center items-center gap-2 w-full card'>
-                    <label htmlFor="name" className='text-slate-100 font-medium self-start text-xl'>Name</label>
-                    <input type="text" id='name' name="name" placeholder='Your Name' className='text-slate-200 font-medium px-3 py-2 rounded-lg w-full outline-none input' required />
-                    <label htmlFor="email" className='text-slate-100 font-medium self-start text-xl'>Email</label>
-                    <input type="email" id='email' name="email" placeholder='Your Email' className='text-slate-200 font-medium px-3 py-2 rounded-lg w-full outline-none input' required />
-                    <label htmlFor="message" className='text-slate-100 font-medium self-start text-xl'>Message</label>
-                    <textarea id='message' name="message" placeholder='Drop Your Message' className='text-slate-200 font-medium px-3 py-2 rounded-lg w-full outline-none input' required></textarea>
-                    <button type="submit" className='btn text-slate-800 bg-slate-200 hover:bg-slate-300 transition ease-in-out text-xl font-medium px-3 py-2 rounded-lg self-start mt-2'>Submit</button>
+                    <label htmlFor="name" className='dark:text-slate-100 text-gray-900 font-medium self-start text-xl'>Name</label>
+                    <input type="text" id='name' name="name" placeholder='Your Name' className='dark:text-slate-200 text-gray-800 font-medium px-3 py-2 rounded-lg w-full outline-none input' required />
+                    <label htmlFor="email" className='dark:text-slate-100 text-gray-900 font-medium self-start text-xl'>Email</label>
+                    <input type="email" id='email' name="email" placeholder='Your Email' className='dark:text-slate-200 text-gray-800 font-medium px-3 py-2 rounded-lg w-full outline-none input' required />
+                    <label htmlFor="message" className='dark:text-slate-100 text-gray-900 font-medium self-start text-xl'>Message</label>
+                    <textarea id='message' name="message" placeholder='Drop Your Message' className='dark:text-slate-200 text-gray-800 font-medium px-3 py-2 rounded-lg w-full outline-none input' required></textarea>
+                    <button type="submit" className='btn text-slate-200 dark:text-gray-800 dark:bg-slate-200 bg-gray-900 dark:hover:bg-slate-300 hover:bg-gray-800 transition ease-in-out text-xl font-medium px-3 py-2 rounded-lg self-start mt-2'>Submit</button>
                 </form>
-                {error && <span className="text-slate-300 font-medium">{error}</span>}
-                {result && <span className="text-slate-300 font-medium">{result}</span>}
+                {error && <span className="dark:text-slate-300 text-gray-900 font-medium">{error}</span>}
+                {result && <span className="dark:text-slate-300 text-gray-900 font-medium">{result}</span>}
             </div>
         </section>
     )

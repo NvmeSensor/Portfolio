@@ -11,12 +11,12 @@ const About = () => {
         <section className='flex flex-col justify-center items-center w-full px-5 mb-14'>
             <div className='flex flex-col justify-center items-center gap-3 lg:w-[75vw] w-full'>
                 <div className='flex justify-center items-center gap-4 self-start'>
-                    <h1 className='text-3xl font-medium self-start text-slate-300 flex gap-2 items-center'>About Me</h1>
+                    <h1 className='text-3xl font-semibold self-start dark:text-slate-300 text-gray-900 flex gap-2 items-center'>About Me</h1>
                 </div>
                 <div className='flex flex-col justify-center items-center gap-3 p-4 rounded-lg card'>
-                    <h1 className='text-slate-200 self-start font-medium'>{hello1}</h1>
-                    <h1 className='text-slate-200 self-start font-medium'>{hello2}</h1>
-                    <h1 className='text-slate-200 self-start font-medium'>{hello3}</h1>
+                    <h1 className='text-[18px] dark:text-slate-200 text-gray-800 self-start font-medium'>{hello1}</h1>
+                    <h1 className='text-[18px] dark:text-slate-200 text-gray-800 self-start font-medium'>{hello2}</h1>
+                    <h1 className='text-[18px] dark:text-slate-200 text-gray-800 self-start font-medium'>{hello3}</h1>
                 </div>
             </div>
         </section>
