@@ -39,14 +39,14 @@ const Message = () => {
                 <div className='flex justify-center items-center gap-4 self-start'>
                     <h1 className='text-3xl font-semibold self-start dark:text-slate-300 text-gray-900 flex gap-2 items-center'>Drop a Message</h1>
                 </div>
-                <form onSubmit={onSubmit} className='p-5 rounded-lg flex flex-col justify-center items-center gap-2 w-full card'>
-                    <label htmlFor="name" className='dark:text-slate-100 text-gray-900 font-medium self-start text-xl'>Name</label>
-                    <input type="text" id='name' name="name" placeholder='Your Name' className='dark:text-slate-200 text-gray-800 font-medium px-3 py-2 rounded-lg w-full outline-none input' required />
-                    <label htmlFor="email" className='dark:text-slate-100 text-gray-900 font-medium self-start text-xl'>Email</label>
-                    <input type="email" id='email' name="email" placeholder='Your Email' className='dark:text-slate-200 text-gray-800 font-medium px-3 py-2 rounded-lg w-full outline-none input' required />
-                    <label htmlFor="message" className='dark:text-slate-100 text-gray-900 font-medium self-start text-xl'>Message</label>
-                    <textarea id='message' name="message" placeholder='Drop Your Message' className='dark:text-slate-200 text-gray-800 font-medium px-3 py-2 rounded-lg w-full outline-none input' required></textarea>
-                    <button type="submit" className='btn text-slate-200 dark:text-gray-800 dark:bg-slate-200 bg-gray-900 dark:hover:bg-slate-300 hover:bg-gray-800 transition ease-in-out text-xl font-medium px-3 py-2 rounded-lg self-start mt-2'>Submit</button>
+                <form onSubmit={onSubmit} className='p-5 rounded-lg flex flex-col justify-center items-center gap-2 w-full bg-slate-200 dark:bg-zinc-800'>
+                    <label htmlFor="name" className='text-gray-900 dark:text-slate-100 font-medium self-start text-xl'>Name</label>
+                    <input type="text" id='name' name="name" placeholder='Your Name' className='text-gray-800 dark:text-slate-200 font-medium px-3 py-2 rounded-lg w-full outline-none bg-slate-100 dark:bg-zinc-900' required />
+                    <label htmlFor="email" className='text-gray-900 dark:text-slate-100 font-medium self-start text-xl'>Email</label>
+                    <input type="email" id='email' name="email" placeholder='Your Email' className='text-gray-800 dark:text-slate-200 font-medium px-3 py-2 rounded-lg w-full outline-none bg-slate-100 dark:bg-zinc-900' required />
+                    <label htmlFor="message" className='text-gray-900 dark:text-slate-100 font-medium self-start text-xl'>Message</label>
+                    <textarea id='message' name="message" placeholder='Drop Your Message' className='text-gray-800 dark:text-slate-200 font-medium px-3 py-2 rounded-lg w-full outline-none bg-slate-100 dark:bg-zinc-900' required></textarea>
+                    <button type="submit" className='btn text-slate-200 dark:text-gray-800 bg-gray-900 dark:bg-slate-200 hover:bg-gray-800 dark:hover:bg-slate-300  transition ease-in-out text-xl font-medium px-3 py-2 rounded-lg self-start mt-2'>Submit</button>
                 </form>
                 {error && <span className="dark:text-slate-300 text-gray-900 font-medium">{error}</span>}
                 {result && <span className="dark:text-slate-300 text-gray-900 font-medium">{result}</span>}

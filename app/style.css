@@ -1,25 +1,11 @@
-body {
+body{
     scroll-behavior: smooth;
 }
 
-#name , #email , #message {
-    background: var(--input-bg-color);
-}
-
-:root {
-    --card-bg-color: #e1e9ec;
-    --input-bg-color: #fafcfd;
-}
-
-@media (prefers-color-scheme: dark) {
-    :root {
-        --card-bg-color: #313131;
-        --input-bg-color: #202020;
-    }
-}
-
-.card {
-    background: var(--card-bg-color);
+.theme-toggle {
+    position: fixed;
+    top: 16px;
+    right: 16px;
 }
 
 ::-webkit-scrollbar {

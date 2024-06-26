@@ -1,5 +1,4 @@
 import React from 'react'
-import { GoCodeReview } from "react-icons/go";
 
 const About = () => {
 
@@ -13,10 +12,10 @@ const About = () => {
                 <div className='flex justify-center items-center gap-4 self-start'>
                     <h1 className='text-3xl font-semibold self-start dark:text-slate-300 text-gray-900 flex gap-2 items-center'>About Me</h1>
                 </div>
-                <div className='flex flex-col justify-center items-center gap-3 p-4 rounded-lg card'>
-                    <h1 className='text-[18px] dark:text-slate-200 text-gray-800 self-start font-medium'>{hello1}</h1>
-                    <h1 className='text-[18px] dark:text-slate-200 text-gray-800 self-start font-medium'>{hello2}</h1>
-                    <h1 className='text-[18px] dark:text-slate-200 text-gray-800 self-start font-medium'>{hello3}</h1>
+                <div className='flex flex-col justify-center items-center gap-3 p-4 rounded-lg bg-slate-200 dark:bg-zinc-800'>
+                    <h1 className='text-[18px] text-gray-800 dark:text-slate-200 self-start font-medium'>{hello1}</h1>
+                    <h1 className='text-[18px] text-gray-800 dark:text-slate-200 self-start font-medium'>{hello2}</h1>
+                    <h1 className='text-[18px] text-gray-800 dark:text-slate-200 self-start font-medium'>{hello3}</h1>
                 </div>
             </div>
         </section>

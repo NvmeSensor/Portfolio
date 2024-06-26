@@ -36,9 +36,9 @@ const Contact = () => {
                 <div className='flex justify-center items-center gap-4 self-start'>
                     <h1 className='text-3xl font-semibold self-start dark:text-slate-300 text-gray-900 flex gap-2 items-center'>Connect With Me</h1>
                 </div>
-                <div className='flex flex-wrap justify-center items-center gap-5 px-5 py-4 rounded-lg card'>
+                <div className='flex flex-wrap justify-center items-center gap-5 px-5 py-4 rounded-lg bg-slate-200 dark:bg-zinc-800'>
                     {conxtants.map((conxtant, index) => (
-                        <Link href={conxtant.url} key={index} target='blank' className='text-4xl dark:text-slate-200 text-gray-800 transition ease-in-out'>
+                        <Link href={conxtant.url} key={index} target='blank' className='text-4xl text-gray-800 dark:text-slate-200 transition ease-in-out'>
                             {conxtant.icon}
                         </Link>
                     ))}

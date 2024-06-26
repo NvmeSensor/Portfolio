@@ -3,7 +3,7 @@ import "./globals.css";
 import "./style.css"
 import Footer from '../components/Footer'
 
-const syne = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Priyanshu Chahar | Portfolio",
@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
         <meta name="description" content={metadata.description} />
         <meta name="keywords" content={metadata.keywords} />
       </head>
-      <body className={syne.className}>
+      <body className={inter.className}>
         {children}
         <Footer />
       </body>
