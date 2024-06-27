@@ -21,7 +21,7 @@ const Projects = () => {
                         </Link>
                     ))}
                 </div>
-                <Link href='/projects' className='btn text-slate-200 dark:text-gray-800 bg-gray-900 dark:bg-slate-200 hover:bg-gray-800 dark:hover:bg-slate-300  transition ease-in-out text-xl font-medium px-3 py-2 rounded-lg mt-2'>More Projects</Link>
+                <Link href='/projects' className='px-3 py-2 font-semibold text-slate-200 dark:text-gray-800 bg-gray-900 dark:bg-slate-200 hover:bg-gray-800 dark:hover:bg-slate-300  transition ease-in-out rounded-lg mt-2'>More Projects</Link>
             </div>
         </section>
     )
