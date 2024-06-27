@@ -46,7 +46,7 @@ const Message = () => {
                     <input type="email" id='email' name="email" placeholder='Your Email' className='text-gray-800 dark:text-slate-200 font-medium px-3 py-2 rounded-lg w-full outline-none bg-slate-100 dark:bg-zinc-900' required />
                     <label htmlFor="message" className='text-gray-900 dark:text-slate-100 font-medium self-start text-xl'>Message</label>
                     <textarea id='message' name="message" placeholder='Drop Your Message' className='text-gray-800 dark:text-slate-200 font-medium px-3 py-2 rounded-lg w-full outline-none bg-slate-100 dark:bg-zinc-900' required></textarea>
-                    <button type="submit" className='btn text-slate-200 dark:text-gray-800 bg-gray-900 dark:bg-slate-200 hover:bg-gray-800 dark:hover:bg-slate-300  transition ease-in-out text-xl font-medium px-3 py-2 rounded-lg self-start mt-2'>Submit</button>
+                    <button type="submit" className='px-3 py-2 font-semibold text-slate-200 dark:text-gray-800 bg-gray-900 dark:bg-slate-200 hover:bg-gray-800 dark:hover:bg-slate-300  transition ease-in-out rounded-lg mt-2'>Submit</button>
                 </form>
                 {error && <span className="dark:text-slate-300 text-gray-900 font-medium">{error}</span>}
                 {result && <span className="dark:text-slate-300 text-gray-900 font-medium">{result}</span>}
