@@ -1,11 +1,17 @@
 body{
+    background-image: url(/background.svg);
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
     scroll-behavior: smooth;
 }
 
-.theme-toggle {
-    position: fixed;
-    top: 16px;
-    right: 16px;
+.card{
+    background-color: #55555555;
+}
+
+.inputt{
+    background-color: #55555560;
 }
 
 ::-webkit-scrollbar {
