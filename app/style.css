@@ -1,5 +1,7 @@
 body{
-    background-image: url(/background.svg);
+    background-image: radial-gradient(#55555560 1px, transparent 1px);
+    background-size: 32px 32px;
+    background-color: #181818;
     background-position: center;
     background-attachment: fixed;
     min-height: 100vh;
