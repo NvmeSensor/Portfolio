@@ -145,7 +145,7 @@ const Skills = () => {
                 <div className="flex flex-wrap justify-start items-center  gap-4 w-full">
                     {tools.map((tool, index) => (
                         <div className="flex justify-start items-center" key={index}>
-                            <h1 className="font-medium text-gray-800 dark:text-slate-200 flex gap-2 items-center rounded-lg px-3 py-2 dark:hover:text-slate-400 hover:text-gray-700 transition ease-in-out cursor-pointer bg-slate-200 dark:bg-zinc-800">{tool.name}{tool.icon}</h1>
+                            <h1 className="font-semibold text-gray-800 dark:text-slate-200 flex gap-2 items-center rounded-lg px-3 py-2 dark:hover:text-slate-400 hover:text-gray-700 transition ease-in-out cursor-pointer bg-slate-200 dark:bg-zinc-800">{tool.name}{tool.icon}</h1>
                         </div>
                     ))}
                 </div>
