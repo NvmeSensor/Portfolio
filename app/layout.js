@@ -1,9 +1,10 @@
-import { Inter } from "next/font/google";
+import { JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import "./style.css"
 import Footer from '../components/Footer'
+import Navbar from "@/components/Navbar";
 
-const inter = Inter({ subsets: ["latin"] });
+const jetmono = JetBrains_Mono({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Priyanshu Chahar | Portfolio",
@@ -21,7 +22,8 @@ export default function RootLayout({ children }) {
         <meta name="description" content={metadata.description} />
         <meta name="keywords" content={metadata.keywords} />
       </head>
-      <body className={inter.className}>
+      <body className={jetmono.className}>
+        {/* <Navbar /> */}
         {children}
         <Footer />
       </body>

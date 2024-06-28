@@ -31,7 +31,7 @@ const Services = () => {
         </div>
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center items-stretch gap-5'>
           {servixes.map((servixe, index) => (
-            <div key={index} className='flex flex-col justify-center items-center gap-1 p-4 rounded-lg card h-full'>
+            <div key={index} className='flex flex-col justify-center items-center gap-1 p-4 rounded-lg border-b-2 border-slate-400 card h-full'>
               <h1 className='text-2xl font-semibold text-slate-200 self-start mt-0'>{servixe.name}</h1>
               <h2 className='font-medium text-slate-300 self-start my-auto'>{servixe.desc}</h2>
             </div>
