@@ -13,7 +13,7 @@ const Hero = () => {
                     <div className='flex flex-col justify-start items-center gap-2 w-full'>
                         <h1 className='text-4xl font-bold text-slate-100 self-start'>{name}</h1>
                         <h2 className='text-2xl font-semibold text-slate-200 self-start'>{developer}</h2>
-                        <h3 className='text-[20px] font-semibold text-slate-200 self-start'>{tagline}</h3>
+                        <h3 className='text-[20px] font-medium text-slate-200 self-start'>{tagline}</h3>
                     </div>
                 </div>
             </div>

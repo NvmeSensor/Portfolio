@@ -1,10 +1,10 @@
-import { JetBrains_Mono } from "next/font/google";
+import { Montserrat } from "next/font/google";
 import "./globals.css";
 import "./style.css"
 import Footer from '../components/Footer'
 import Navbar from "@/components/Navbar";
 
-const jetmono = JetBrains_Mono({ subsets: ["latin"] });
+const jetmono = Montserrat({ subsets: ["latin"] });
 
 const metadata = {
   title: "Priyanshu Chahar | Portfolio",
