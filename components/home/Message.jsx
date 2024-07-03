@@ -39,7 +39,7 @@ const Message = () => {
                 <div className='flex justify-center items-center gap-4 self-start'>
                     <h1 className='text-3xl font-semibold self-start text-slate-300 flex gap-2 items-center'>Drop a Message</h1>
                 </div>
-                <form onSubmit={onSubmit} className='p-5 rounded-lg flex flex-col justify-center items-center gap-2 w-full border-b-2 border-slate-400 card'>
+                <form onSubmit={onSubmit} className='p-5 rounded-lg flex flex-col justify-center items-center gap-2 w-full hover:border-b-2 border-slate-400 card'>
                     <label htmlFor="name" className='text-[18px] text-slate-200 font-medium self-start text-xl'>Name</label>
                     <input type="text" id='name' name="name" placeholder='Your Name' className='text-slate-200 font-medium px-3 py-2 rounded-lg w-full outline-none inputt' required />
                     <label htmlFor="email" className='text-[18px] text-slate-200 font-medium self-start text-xl'>Email</label>

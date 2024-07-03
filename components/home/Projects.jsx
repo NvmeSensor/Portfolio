@@ -14,7 +14,7 @@ const Projects = () => {
                 </div>
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center items-stretch gap-5'>
                     {displayProjexts.map((projext, index) => (
-                        <Link href={projext.link} target="blank" key={index} className='flex flex-col justify-center items-center gap-1 p-4 rounded-lg border-b-2 border-slate-400 card h-full'>
+                        <Link href={projext.link} target="blank" key={index} className='flex flex-col justify-center items-center gap-1 p-4 rounded-lg hover:border-b-2 border-slate-400 card h-full'>
                         <h1 className='text-4xl font-semibold text-slate-200 text-center mt-0 p-5 w-full rounded-lg proj'>{projext.name}</h1>
                         <h2 className='text-xl font-medium text-slate-300 self-start mt-0'>{projext.desc}</h2>
                         <h2 className='text-[18px] font-semibold text-slate-200 hover:text-slate-300 self-start my-auto'>{projext.tech}</h2>

@@ -11,7 +11,7 @@ const Contact = () => {
         {
             name: "Github",
             icon: <IoLogoGithub />,
-            url: "https://github.com/priyannxhuu",
+            url: "https://github.com/nvmesensor",
         },
         {
             name: "Linkedin",

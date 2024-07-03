@@ -3,19 +3,19 @@ const projexts = [
         name: "Portfolio",
         tech: "Next.JS, Tailwind Css",
         desc: "Personal showcase for projects and achievements",
-        link: "https://priyanshuchahar.vercel.app/",
+        link: "https://priyanshuchahar.vercel.app",
     },
     {
         name: "NodeElites",
         tech: "Next.JS, Tailwind Css",
         desc: "Open-source developers community platform",
-        link: "https://nodeelites.github.io/",
+        link: "https://nodeelites.github.io",
     },
     {
-        name: "SyntaxMeet",
+        name: "Palette",
         tech: "Next.JS, Tailwind Css",
-        desc: "Video calling web application for seamless meetings",
-        link: "",
+        desc: "Color palette website for designers and developers",
+        link: "https://colorpalettex.vercel.app",
     },
 ]
 

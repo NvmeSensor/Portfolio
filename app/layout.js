@@ -4,7 +4,7 @@ import "./style.css"
 import Footer from '../components/Footer'
 import Navbar from "@/components/Navbar";
 
-const jetmono = Montserrat({ subsets: ["latin"] });
+const mont = Montserrat({ subsets: ["latin"] });
 
 const metadata = {
   title: "Priyanshu Chahar | Portfolio",
@@ -31,8 +31,8 @@ export default function RootLayout({ children }) {
         <meta property="twitter:description" content={metadata.description}/>
         <meta property="twitter:image" content="https://priyanshuchahar.vercel.app/profileimage.png" />
       </head>
-      <body className={jetmono.className}>
-        {/* <Navbar /> */}
+      <body className={mont.className}>
+        <Navbar />
         {children}
         <Footer />
       </body>
