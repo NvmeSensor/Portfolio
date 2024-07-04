@@ -15,7 +15,7 @@ const Home = () => {
         <Projects />
         <Services />
         <About />
-        <Contact />
+        {/* <Contact /> */}
         <Message />
       </main>
   );
