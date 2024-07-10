@@ -20,7 +20,7 @@ const Projects = () => {
                         <h1 className='text-4xl font-semibold text-slate-200 text-center mt-0 p-5 w-full rounded-lg proj'>{projext.name}</h1>
                         <h2 className='text-xl font-semibold text-slate-300 self-start mt-0'>{projext.desc}</h2>
                         <h2 className='text-[18px] font-medium text-slate-200 hover:text-slate-300 self-start my-auto'>{projext.tech}</h2>
-                        <Link href={projext.link} target="blank" className='self-start'><p className='flex gap-1 items-center text-slate-200 hover:text-slate-300 transition ease-in-out font-semibold'>{projext.linkName}<span className='-rotate-45 text-2xl text-green-600'><IoArrowForwardOutline /></span></p></Link>
+                        <Link href={projext.link} target="blank" className='self-start'><p className='flex gap-1 items-center text-slate-200 hover:text-slate-300 transition ease-in-out font-semibold'>Live Link<span className='-rotate-45 text-2xl'><IoArrowForwardOutline /></span></p></Link>
                     </div>
                     ))}
                 </div>
