@@ -43,11 +43,11 @@ const skills = [
         icon: <RiBootstrapFill />,
     },
     {
-        name: "React JS",
+        name: "ReactJS",
         icon: <RiReactjsFill />,
     },
     {
-        name: "Next JS",
+        name: "NextJS",
         icon: <RiNextjsFill />,
     },
     {
@@ -65,10 +65,6 @@ const skills = [
     {
         name: "Mongoose",
         icon: <SiMongoose />,
-    },
-    {
-        name: "MySql",
-        icon: <SiMysql />,
     },
 
     // {
@@ -123,4 +119,47 @@ const os = [
     }
 ]
 
-export { skills, tools, os };
+const buildWith = [
+    {
+        name: "HTML",
+        icon: <SiHtml5 />,
+    },
+    {
+        name: "CSS",
+        icon: <SiCss3 />,
+    },
+    {
+        name: "Javascript",
+        icon: <SiJavascript />,
+    },
+    {
+        name: "Tailwind",
+        icon: <RiTailwindCssFill />,
+    },
+    {
+        name: "ReactJS",
+        icon: <RiReactjsFill />,
+    },
+    {
+        name: "NextJS",
+        icon: <RiNextjsFill />,
+    },
+    {
+        name: "NodeJS",
+        icon: <FaNodeJs />,
+    },
+    {
+        name: "ExpressJS",
+        icon: <SiExpress />,
+    },
+    {
+        name: "MongoDB",
+        icon: <SiMongodb />,
+    },
+    {
+        name: "Mongoose",
+        icon: <SiMongoose />,
+    },
+]
+
+export { skills, tools, os, buildWith };

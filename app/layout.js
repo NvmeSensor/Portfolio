@@ -2,7 +2,6 @@ import { Montserrat } from "next/font/google";
 import "./globals.css";
 import "./style.css";
 import Footer from '../components/Footer';
-import Navbar from "@/components/Navbar";
 
 const mont = Montserrat({ subsets: ["latin"] });
 
@@ -46,7 +45,6 @@ export default function RootLayout({ children }) {
         <meta property="twitter:image" content={metadata.twitter.image} />
       </head>
       <body className={mont.className}>
-        {/* <Navbar /> */}
         {children}
         <Footer />
       </body>

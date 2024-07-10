@@ -12,7 +12,7 @@ const Skills = () => {
                 <div className="flex flex-wrap justify-start items-center  gap-4 w-full">
                     {skills.map((skill, index) => (
                         <div className="flex justify-start items-center" key={index}>
-                            <h1 className="text-[18px] font-medium text-slate-200 flex gap-2 items-center rounded-lg px-3 py-2 hover:text-slate-400 transition ease-in-out cursor-pointer hover:border-b-2 border-slate-400 card">{skill.name}{skill.icon}</h1>
+                            <h1 className="text-[16px] font-semibold text-slate-200 flex gap-2 items-center rounded-lg px-3 py-2 hover:text-slate-400 transition ease-in-out cursor-pointer card">{skill.name}{skill.icon}</h1>
                         </div>
                     ))}
                 </div>
@@ -22,7 +22,7 @@ const Skills = () => {
                 <div className="flex flex-wrap justify-start items-center  gap-4 w-full">
                     {tools.map((tool, index) => (
                         <div className="flex justify-start items-center" key={index}>
-                            <h1 className="text-[18px] font-medium text-slate-200 flex gap-2 items-center rounded-lg px-3 py-2 hover:text-slate-400 transition ease-in-out cursor-pointer hover:border-b-2 border-slate-400 card">{tool.name}{tool.icon}</h1>
+                            <h1 className="text-[16px] font-semibold text-slate-200 flex gap-2 items-center rounded-lg px-3 py-2 hover:text-slate-400 transition ease-in-out cursor-pointer card">{tool.name}{tool.icon}</h1>
                         </div>
                     ))}
                 </div>
@@ -32,7 +32,7 @@ const Skills = () => {
                 <div className="flex flex-wrap justify-start items-center  gap-4 w-full">
                     {os.map((o, index) => (
                         <div className="flex justify-start items-center" key={index}>
-                            <h1 className="text-[18px] font-medium text-slate-200 flex gap-2 items-center rounded-lg px-3 py-2 hover:text-slate-400 transition ease-in-out cursor-pointer hover:border-b-2 border-slate-400 card">{o.name}{o.icon}</h1>
+                            <h1 className="text-[16px] font-semibold text-slate-200 flex gap-2 items-center rounded-lg px-3 py-2 hover:text-slate-400 transition ease-in-out cursor-pointer card">{o.name}{o.icon}</h1>
                         </div>
                     ))}
                 </div>

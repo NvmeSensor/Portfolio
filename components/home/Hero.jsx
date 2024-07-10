@@ -41,10 +41,10 @@ const Hero = () => {
                         <h1 className='text-4xl font-semibold text-slate-200 self-start'>{name}</h1>
                         <h2 className='text-2xl font-semibold text-slate-200 self-start'>{developer}</h2>
                     </div>
-                        <div className='flex flex-wrap justify-start items-center gap-7
+                        <div className='flex flex-wrap justify-start items-center gap-3
                         self-start'>
                     {conxtants.map((conxtant, index) => (
-                        <Link href={conxtant.url} key={index} target='blank' className='text-4xl text-slate-200 hover:text-slate-400 transition ease-in-out self-start'>
+                        <Link href={conxtant.url} key={index} target='blank' className='text-4xl text-slate-200 p-2 hover:bg-slate-200 hover:text-zinc-800 rounded-lg transition ease-in-out self-start'>
                             <p>{conxtant.icon}</p>
                         </Link>
                     ))}

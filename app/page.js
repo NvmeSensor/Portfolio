@@ -4,8 +4,8 @@ import Skills from '../components/home/Skills';
 import About from '../components/home/About';
 import Projects from '../components/home/Projects';
 import Services from '../components/home/Services';
-import Contact from '../components/home/Contact';
 import Message from '../components/home/Message';
+import BuiltWith from '@/components/home/BuiltWith';
 
 const Home = () => {
   return (
@@ -13,9 +13,9 @@ const Home = () => {
         <Hero />
         <About />
         <Skills />
+        <BuiltWith />
         <Projects />
         <Services />
-        {/* <Contact /> */}
         <Message />
       </main>
   );
