@@ -27,7 +27,7 @@ const Hero = () => {
         {
             name: "Mail",
             icon: <MdOutlineMail />,
-            url: "mailto:priyanxhuu@gmail.com"
+            url: "mailto:priyannxhuu@gmail.com"
         },
         {
             name: "More",
