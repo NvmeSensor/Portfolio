@@ -17,7 +17,7 @@ const BuiltWith = () => {
                   <span className="text-2xl">
                     <MdKeyboardDoubleArrowRight />
                   </span>
-                  {bw.name}
+                  <p className="flex gap-2 items-center">{bw.name}{bw.icon}</p>
                 </h1>
               </div>
             ))}
