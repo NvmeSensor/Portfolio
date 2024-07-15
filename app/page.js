@@ -6,6 +6,8 @@ import Projects from '../components/home/Projects';
 import Services from '../components/home/Services';
 import Message from '../components/home/Message';
 import BuiltWith from '@/components/home/BuiltWith';
+import Experience from '@/components/home/Experience';
+import Achievements from '@/components/home/Achievements';
 
 const Home = () => {
   return (
@@ -14,8 +16,10 @@ const Home = () => {
         <About />
         <Skills />
         <BuiltWith />
+        <Experience />
         <Projects />
         <Services />
+        <Achievements />
         <Message />
       </main>
   );

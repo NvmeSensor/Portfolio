@@ -25,25 +25,33 @@ body {
     pointer-events: none;
   }
 
-.card{
+.card , .skills{
   background-color: #212121;
 }
 
+.skills:hover{
+  background-color: #272727;
+}
+
+.exp , .ach{
+  background-color: #272727;
+}
+
 .inputt{
-    background-color: #252525;
+    background-color: #272727;
 }
 
 ::-webkit-scrollbar {
-    width: 6px;
-    background-color: #1e1e1e;
+    width: 8px;
+    background-color: #212121;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #55555530;
-    border-radius: 6px;
+    background-color: #272727;
+    border-radius: 8px;
     border: 2px solid transparent;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background-color: #313131;
+    background-color: #252525;
 }

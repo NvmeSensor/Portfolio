@@ -15,7 +15,7 @@ const Skills = () => {
             <div className="flex justify-start items-center" key={index}>
               <h1
                 className="text-[16px] font-semibold text-slate-200 flex gap-2 items-center rounded-lg px-3 py-2 hover:bg-zinc-800
-                transition ease-in-out cursor-pointer card"
+                transition ease-in-out cursor-pointer skills"
               >
                 {skill.name}
                 {skill.icon}
@@ -31,7 +31,7 @@ const Skills = () => {
         <div className="flex flex-wrap justify-start items-center  gap-4 w-full">
           {tools.map((tool, index) => (
             <div className="flex justify-start items-center" key={index}>
-              <h1 className="text-[16px] font-semibold text-slate-200 flex gap-2 items-center rounded-lg px-3 py-2 hover:bg-zinc-800 transition ease-in-out cursor-pointer card">
+              <h1 className="text-[16px] font-semibold text-slate-200 flex gap-2 items-center rounded-lg px-3 py-2 hover:bg-zinc-800 transition ease-in-out cursor-pointer skills">
                 {tool.name}
                 {tool.icon}
               </h1>
@@ -46,7 +46,7 @@ const Skills = () => {
         <div className="flex flex-wrap justify-start items-center  gap-4 w-full">
           {os.map((o, index) => (
             <div className="flex justify-start items-center" key={index}>
-              <h1 className="text-[16px] font-semibold text-slate-200 flex gap-2 items-center rounded-lg px-3 py-2 hover:bg-zinc-800 transition ease-in-out cursor-pointer card">
+              <h1 className="text-[16px] font-semibold text-slate-200 flex gap-2 items-center rounded-lg px-3 py-2 hover:bg-zinc-800 transition ease-in-out cursor-pointer skills">
                 {o.name}
                 {o.icon}
               </h1>

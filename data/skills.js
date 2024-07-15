@@ -133,6 +133,10 @@ const buildWith = [
         icon: <SiJavascript />,
     },
     {
+        name: "Typescript",
+        icon: <SiTypescript />,
+    },
+    {
         name: "Tailwind",
         icon: <RiTailwindCssFill />,
     },
