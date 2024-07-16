@@ -7,7 +7,7 @@ const Skills = () => {
       <div className="flex flex-col justify-center items-center gap-3 lg:w-[75vw] w-full">
         <div className="flex justify-center items-center gap-4 self-start">
           <h1 className="text-3xl font-semibold self-start text-slate-300 flex gap-2 items-center">
-            My Skills
+            What i know
           </h1>
         </div>
         <div className="flex flex-wrap justify-start items-center  gap-4 w-full">
@@ -25,7 +25,7 @@ const Skills = () => {
         </div>
         <div className="flex justify-center items-center gap-4 self-start">
           <h1 className="text-3xl font-semibold self-start text-slate-300 flex gap-2 items-center">
-            My Tools
+            Development tools
           </h1>
         </div>
         <div className="flex flex-wrap justify-start items-center  gap-4 w-full">
@@ -40,7 +40,7 @@ const Skills = () => {
         </div>
         <div className="flex justify-center items-center gap-4 self-start">
           <h1 className="text-3xl font-semibold self-start text-slate-300 flex gap-2 items-center">
-            My Operating System
+            Operating system
           </h1>
         </div>
         <div className="flex flex-wrap justify-start items-center  gap-4 w-full">

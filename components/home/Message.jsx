@@ -37,7 +37,7 @@ const Message = () => {
         <section className='flex flex-col justify-center items-center w-full px-5 mb-14'>
             <div className='flex flex-col justify-center items-center gap-3 lg:w-[75vw] w-full'>
                 <div className='flex justify-center items-center gap-4 self-start'>
-                    <h1 className='text-3xl font-semibold self-start text-slate-300 flex gap-2 items-center'>Drop a Message</h1>
+                    <h1 className='text-3xl font-semibold self-start text-slate-300 flex gap-2 items-center'>Drop a message</h1>
                 </div>
                 <form onSubmit={onSubmit} className='p-5 rounded-lg flex flex-col justify-center items-center gap-2 w-full card'>
                     <label htmlFor="name" className='text-[18px] text-slate-200 font-semibold self-start text-xl'>Name</label>
