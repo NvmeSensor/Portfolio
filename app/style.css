@@ -1,44 +1,31 @@
 body {
     background-image: 
-      linear-gradient(#55555530 1px, transparent 1px),
-      linear-gradient(90deg, #55555530 1px, transparent 1px);
-    background-size: 40px 40px;    
+      linear-gradient(#efefef15 1px, transparent 1px),
+      linear-gradient(90deg, #efefef15 1px, transparent 1px);
+    background-size: 32px 32px;    
     background-size: 50px 50px;
-    background-color: #151515;
+    background-color: #131313;
     background-position: center;
     background-attachment: fixed;
     min-height: 100vh;
     scroll-behavior: smooth;
-    position: relative;
-    z-index: 0;
-  }
-  
-  body::before {
-    content: '';
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: radial-gradient(circle, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.5) 100%);
-    z-index: -1;
-    pointer-events: none;
+    color: #cbd5e1;
   }
 
 .card , .skills{
-  background-color: #212121;
+  background-image: radial-gradient(circle, #262626, #252525, #242424, #242424, #232323);
 }
 
 .skills:hover{
-  background-color: #272727;
+  background-image: linear-gradient(90deg , #94a3b9 ,#94a3b9);
 }
 
 .exp , .ach{
-  background-color: #272727;
+background-image: radial-gradient(circle, #212121, #212121, #202120, #202020, #202020);
 }
 
 .inputt{
-    background-color: #272727;
+background-image: radial-gradient(circle, #212121, #212121, #202120, #202020, #202020);
 }
 
 ::-webkit-scrollbar {
