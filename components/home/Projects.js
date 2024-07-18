@@ -31,12 +31,12 @@ const Projects = () => {
               </h2>
               <div className="flex justify-start items-center gap-2 w-full">
               <Link href={projext.link} target="blank" className="">
-                <p className="flex gap-1 items-center transition ease-in-out font-semibold px-3 py-1 bg-slate-300 hover:bg-slate-400 rounded-md mt-2 visit">
+                <p className="flex gap-1 items-center transition ease-in-out font-semibold px-3 py-1 bg-slate-200 hover:bg-slate-300 rounded-md mt-2 visit">
                   Visit
                 </p>
               </Link>
               <Link href={projext.github} target="blank" className="">
-                <p className="flex gap-1 items-center transition ease-in-out font-semibold px-3 py-1 bg-slate-300 hover:bg-slate-400 rounded-md mt-2 visit">
+                <p className="flex gap-1 items-center transition ease-in-out font-semibold px-3 py-1 bg-slate-200 hover:bg-slate-300 rounded-md mt-2 visit">
                   Github
                 </p>
               </Link>
@@ -46,7 +46,7 @@ const Projects = () => {
         </div>
         <Link
           href="/projects"
-          className="px-3 py-2 font-semibold text-[16px] text-zinc-800 bg-slate-300 hover:bg-slate-400 transition ease-in-out rounded-lg mt-2"
+          className="px-3 py-2 font-semibold text-[16px] text-zinc-800 bg-slate-200 hover:bg-slate-300 transition ease-in-out rounded-lg mt-2"
         >
           More Projects
         </Link>

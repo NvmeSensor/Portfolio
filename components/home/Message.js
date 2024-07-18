@@ -88,7 +88,7 @@ const Message = () => {
           ></textarea>
           <button
             type="submit"
-            className="px-3 py-2 font-semibold text-[16px] text-zinc-800 bg-slate-300 hover:bg-slate-400 transition ease-in-out rounded-md mt-2 self-start"
+            className="px-3 py-2 font-semibold text-[16px] text-zinc-800 bg-slate-200 hover:bg-slate-300 transition ease-in-out rounded-md mt-2 self-start"
           >
             Submit
           </button>

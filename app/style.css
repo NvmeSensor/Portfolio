@@ -1,9 +1,8 @@
-body {
+body{
     background-image: 
       linear-gradient(#efefef15 1px, transparent 1px),
       linear-gradient(90deg, #efefef15 1px, transparent 1px);
-    background-size: 32px 32px;    
-    background-size: 50px 50px;
+    background-size: 52px 52px;
     background-color: #131313;
     background-position: center;
     background-attachment: fixed;
@@ -13,19 +12,20 @@ body {
   }
 
 .card , .skills{
-  background-image: radial-gradient(circle, #262626, #252525, #242424, #242424, #232323);
+  background-image: radial-gradient(circle, #262626, #232323);
 }
 
 .skills:hover{
-  background-image: linear-gradient(90deg , #94a3b9 ,#94a3b9);
+  background-image: linear-gradient(90deg , #cbd5e1 ,#cbd5e1);
+  color: #2c272a;
 }
 
 .exp , .ach{
-background-image: radial-gradient(circle, #212121, #212121, #202120, #202020, #202020);
+background-image: radial-gradient(circle, #212121, #202020);
 }
 
 .inputt{
-background-image: radial-gradient(circle, #212121, #212121, #202120, #202020, #202020);
+background-image: radial-gradient(circle, #212121, #202020);
 }
 
 .visit{

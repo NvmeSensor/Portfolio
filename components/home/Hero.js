@@ -55,7 +55,7 @@ const Hero = () => {
                 href={conxtant.url}
                 key={index}
                 target="blank"
-                className="text-3xl p-2 rounded-lg transition ease-in-out self-start hover:bg-slate-400 hover:text-zinc-800"
+                className="text-3xl p-2 rounded-lg transition ease-in-out self-start hover:bg-slate-300 hover:text-zinc-800"
               >
                 <p>{conxtant.icon}</p>
               </Link>
