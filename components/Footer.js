@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -6,9 +7,9 @@ const Footer = () => {
       <div className="flex flex-col justify-center items-center lg:w-[80vw] py-2 w-full">
         <h1 className="font-medium text-center">
           Developed By{" "}
-          <a href="/" className="underline">
+          <Link href="/" className="underline">
             Priyanshu Chahar
-          </a>
+          </Link>
         </h1>
         <h2 className="font-medium text-center">
           Developed with Simplicity in Mind

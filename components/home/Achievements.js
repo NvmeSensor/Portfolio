@@ -15,9 +15,9 @@ const Achievements = () => {
                 key={index}
                 className="flex flex-col justify-start items-center gap-2 p-4 rounded-md h-full ach"
               >
-                <h1 className="text-xl font-semibold self-start mt-0">
+                <p className="text-xl font-semibold self-start mt-0">
                   {ach.name}
-                </h1>
+                </p>
                 <p className="text-[18px] font-medium self-start my-auto">
                   {ach.desc}
                 </p>

@@ -15,9 +15,9 @@ const Experience = () => {
                 key={index}
                 className="flex flex-col justify-start items-center gap-2 p-4 rounded-md h-full exp"
               >
-                <h1 className="text-xl font-semibold self-start mt-0">
+                <p className="text-xl font-semibold self-start mt-0">
                   {exp.name}
-                </h1>
+                </p>
                 <p className="text-[18px] font-medium self-start my-auto">
                   {exp.desc}
                 </p>

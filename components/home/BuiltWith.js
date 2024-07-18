@@ -13,7 +13,7 @@ const BuiltWith = () => {
           <div className="flex flex-wrap justify-start items-center gap-5 w-full p-4 rounded-lg card">
             {buildWith.map((bw, index) => (
               <div className="flex justify-start items-center" key={index}>
-                <h1 className="font-semibold text-[16px] flex gap-1 items-center rounded-lg px-3 py-2 transition ease-in-out cursor-pointer hover:bg-slate-300 hover:text-zinc-800">
+                <div className="font-semibold text-[16px] flex gap-1 items-center rounded-lg px-3 py-2 transition ease-in-out cursor-pointer hover:bg-slate-300 hover:text-zinc-800">
                   <span className="text-2xl">
                     <MdKeyboardDoubleArrowRight />
                   </span>
@@ -21,7 +21,7 @@ const BuiltWith = () => {
                     {bw.name}
                     {bw.icon}
                   </p>
-                </h1>
+                </div>
               </div>
             ))}
           </div>

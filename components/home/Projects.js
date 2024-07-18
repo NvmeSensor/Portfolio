@@ -20,15 +20,15 @@ const Projects = () => {
               key={index}
               className="flex flex-col justify-center items-center gap-1 p-4 rounded-lg card h-full"
             >
-              <h1 className="text-4xl font-semibold text-center mt-0 p-5 w-full rounded-lg proj">
+              <h2 className="text-4xl font-semibold text-center mt-0 p-5 w-full rounded-lg proj">
                 {projext.name}
-              </h1>
-              <h2 className="text-xl font-semibold self-start mt-0">
+              </h2>
+              <p className="text-xl font-semibold self-start mt-0">
                 {projext.desc}
-              </h2>
-              <h2 className="text-[18px] font-medium   self-start my-auto">
+              </p>
+              <p className="text-[18px] font-medium   self-start my-auto">
               Developed using {projext.tech}
-              </h2>
+              </p>
               <div className="flex justify-start items-center gap-2 w-full">
               <Link href={projext.link} target="blank" className="">
                 <p className="flex gap-1 items-center transition ease-in-out font-semibold px-3 py-1 bg-slate-200 hover:bg-slate-300 rounded-md mt-2 visit">

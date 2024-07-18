@@ -13,43 +13,43 @@ const Skills = () => {
         <div className="flex flex-wrap justify-start items-center gap-4 w-full">
           {skills.map((skill, index) => (
             <div className="flex justify-start items-center" key={index}>
-              <h1
+              <p
                 className="text-[16px] font-semibold flex gap-2 items-center rounded-lg px-3 py-2 
                 transition ease-in-out cursor-pointer skills"
               >
                 {skill.name}
                 {skill.icon}
-              </h1>
+              </p>
             </div>
           ))}
         </div>
         <div className="flex justify-center items-center gap-4 self-start">
-          <h1 className="text-3xl font-semibold self-start flex gap-2 items-center">
+          <h2 className="text-3xl font-semibold self-start flex gap-2 items-center">
             Development tools
-          </h1>
+          </h2>
         </div>
         <div className="flex flex-wrap justify-start items-center gap-4 w-full">
           {tools.map((tool, index) => (
             <div className="flex justify-start items-center" key={index}>
-              <h1 className="text-[16px] font-semibold flex gap-2 items-center rounded-lg px-3 py-2 transition ease-in-out cursor-pointer skills">
+              <p className="text-[16px] font-semibold flex gap-2 items-center rounded-lg px-3 py-2 transition ease-in-out cursor-pointer skills">
                 {tool.name}
                 {tool.icon}
-              </h1>
+              </p>
             </div>
           ))}
         </div>
         <div className="flex justify-center items-center gap-4 self-start">
-          <h1 className="text-3xl font-semibold self-start flex gap-2 items-center">
+          <h3 className="text-3xl font-semibold self-start flex gap-2 items-center">
             Operating system
-          </h1>
+          </h3>
         </div>
         <div className="flex flex-wrap justify-start items-center gap-4 w-full">
           {os.map((o, index) => (
             <div className="flex justify-start items-center" key={index}>
-              <h1 className="text-[16px] font-semibold flex gap-2 items-center rounded-lg px-3 py-2 transition ease-in-out cursor-pointer skills">
+              <p className="text-[16px] font-semibold flex gap-2 items-center rounded-lg px-3 py-2 transition ease-in-out cursor-pointer skills">
                 {o.name}
                 {o.icon}
-              </h1>
+              </p>
             </div>
           ))}
         </div>

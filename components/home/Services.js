@@ -30,12 +30,12 @@ const Services = () => {
               key={index}
               className="flex flex-col justify-center items-center gap-1 p-4 rounded-lg card h-full"
             >
-              <h1 className="text-xl font-semibold self-start mt-0">
+              <p className="text-xl font-semibold self-start mt-0">
                 {servixe.name}
-              </h1>
-              <h2 className="text-[18px] font-medium self-start my-auto">
+              </p>
+              <p className="text-[18px] font-medium self-start my-auto">
                 {servixe.desc}
-              </h2>
+              </p>
             </div>
           ))}
         </div>

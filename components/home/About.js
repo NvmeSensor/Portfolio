@@ -15,8 +15,8 @@ const About = () => {
           </h1>
         </div>
         <div className="flex flex-col justify-center items-center gap-3 p-4 rounded-lg card">
-          <h1 className="text-[18px] self-start font-medium">{hello1}</h1>
-          <h1 className="text-[18px] self-start font-medium">{hello2}</h1>
+          <p className="text-[18px] self-start font-medium">{hello1}</p>
+          <p className="text-[18px] self-start font-medium">{hello2}</p>
         </div>
       </div>
     </section>

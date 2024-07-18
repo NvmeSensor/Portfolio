@@ -7,20 +7,20 @@ const mont = Montserrat({ subsets: ["latin"] });
 
 const metadata = {
   title: "Priyanshu Chahar | Portfolio",
-  description: "Priyanshu Chahar is a skilled MERN stack developer with expertise in MongoDB, Express.js, React.js, and Node.js. Contact Priyanshu for professional web development services and projects.",
-  keywords: ["Priyanshu Chahar", "Priyannxhuu", "NvmeSensor", "Full Stack Developer", "MERN Stack", "MongoDB", "Express.js", "React.js", "Node.js", "Web Development"],
+  description: "Priyanshu Chahar is a skilled MERN stack Developer. Contact Priyanshu for professional web development services and projects.",
+  keywords: ["Priyanshu Chahar", "Priyannxhuu", "Priyanshu Chahar Devfolio", "Priyanshu Chahar Portfolio", "NvmeSensor", "Full Stack Developer", "MERN Stack", "Web Development"],
   openGraph: {
     type: "website",
     url: "https://priyanshuchahar.vercel.app",
     title: "Priyanshu Chahar | Portfolio",
-    description: "Priyanshu Chahar is a skilled MERN stack developer with expertise in MongoDB, Express.js, React.js, and Node.js. Contact Priyanshu for professional web development services and projects.",
+    description: "Priyanshu Chahar is a skilled MERN stack Developer. Contact Priyanshu for professional web development services and projects.",
     image: "https://priyanshuchahar.vercel.app/profileimage.png",
   },
   twitter: {
     card: "summary_large_image",
     url: "https://priyanshuchahar.vercel.app",
     title: "Priyanshu Chahar | Portfolio",
-    description: "Priyanshu Chahar is a skilled MERN stack developer with expertise in MongoDB, Express.js, React.js, and Node.js. Contact Priyanshu for professional web development services and projects.",
+    description: "Priyanshu Chahar is a skilled MERN stack Developer. Contact Priyanshu for professional web development services and projects.",
     image: "https://priyanshuchahar.vercel.app/profileimage.png",
   },
 };
